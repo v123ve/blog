@@ -1,0 +1,31 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "v123ve"
+  text: "思维垃圾"
+  tagline: 过时笔记 看个乐子
+  image:
+    src: /v-logo.png
+    alt: v123ve
+  actions:
+    - theme: brand
+      text: 学习笔记
+      link: /zh-CN/学习笔记/linux.md
+    - theme: brand
+      text: 工作笔记
+      link: /zh-CN/工作笔记/umi2_pnpm.md
+    - theme: alt
+      text: 记录笔记
+      link: /zh-CN/记录笔记
+
+features:
+  - title: 学习笔记
+    details: 早期笔记，不更新
+  - title: 工作笔记
+    details: 工作期间，不定期更新
+  - title: 记录笔记
+    details: 记录生活，不定期更新
+---
+
